@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jamie Hall</title>
+    <link>https://example.com/index.xml</link>
+    <description>Recent content on Jamie Hall</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2017 22:30:15 +0100</lastBuildDate>
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>good to great</title>
+      <link>https://example.com/2017/01/31/good-to-great</link>
+      <pubDate>Tue, 31 Jan 2017 22:30:15 +0100</pubDate>
+      
+      <guid>https://example.com/2017/01/31/good-to-great</guid>
+      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://example.com/blog/helloworld/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/helloworld/</guid>
+      <description>&lt;p&gt;Hello world!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
