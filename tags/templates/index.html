@@ -37,7 +37,7 @@ ga('send', 'pageview');
 <div id="wrap">
     
     <nav class="navbar navbar-default">
-    <div class="container">
+    <div class="container container-centered">
         <div class="navbar-header">
             <a class="navbar-brand" href="https://jamhall.github.io/"><i class="fa fa-home"></i></a>
         </div>
@@ -47,6 +47,10 @@ ga('send', 'pageview');
                 
                 <li><a href="/blog/">BLOG</a></li>
                 
+                <li><a href="/about/">ABOUT</a></li>
+                
+                <li><a href="/contact/">CONTACT</a></li>
+                
                 
             </ul>
         </div>
@@ -54,36 +58,60 @@ ga('send', 'pageview');
 </nav>
 
     <div class="container">
-        <h3>Archive</h3>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                
-                <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5 style="text-align: right">
-                            January 31, 2017
-                        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Blog</h2>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    
+                    <div class="row">
+                        <div class="col-md-12 content-card">
+                            <h2>
+                                <a href="/posts/2017/01/31/hello-world">
+                                    Hello world
+                                </a>
+                            </h2>
+                            <ul class="list-inline">
+                                <li><i class="fa fa-calendar"></i> January 31, 2017</li>
+                            </ul>
+                            Hello world!
+###### CONFIG ACCEPTED_HOSTS=&quot;/root/.hag_accepted.conf&quot; BE_VERBOSE=false if [ &quot;$UID&quot; -ne 0 ] then echo &quot;Superuser rights required&quot; exit 2 fi genApacheConf(){ echo -e &quot;# Host ${HOME_DIR}$1/$2 :&quot; }  
+                            <div class="actions">
+                                <a class="btn btn-custom"
+                                   href="/posts/2017/01/31/hello-world"
+                                   role="button">Read More</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                        <h5 style="text-align: left">
-                            <strong><a href="/posts/2017/01/31/hello-world">Hello world</a></strong>
-                        </h5>
-                    </div>
+                    
                 </div>
-                
             </div>
         </div>
     </div>
-</div>
-
-<footer>
-    <div id="footer">
-        <div class="container">
-            <p class="text-muted">&copy; All rights reserved</p>
+    
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-md-12">
+                <nav>
+                    <a href="/">About</a><br>
+                    <a href="/blog">Blog</a><br>
+                    <a href="https://github.com/jamhall">Github</a><br>
+                    <a href="/contact">Contact</a>
+                </nav>
+            </div>
+            <div class="col-md-10">
+                <div class="about">
+                    <h2>About me</h2>
+                    <p>I love to create beautiful things with elegant code. I particularly like low-level optimisation
+                        for bare metal performance and systems programming, but I also enjoy high-level functional
+                        programming.</p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
-<div class="footer"></div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

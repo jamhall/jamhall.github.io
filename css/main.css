@@ -6,7 +6,7 @@ body {
     background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     /* The html and body elements cannot have any padding or margin. */
-    border-top: 3px solid #3498db;
+    border-top: 5px solid #3498db;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -121,6 +121,9 @@ code {
 .container {
     width: auto;
     max-width: 800px;
+}
+
+.container.container-centered {
     text-align: center;
 }
 
@@ -208,21 +211,34 @@ code {
     text-align: left;
     line-height: 30px;
     font-size: 18px;
+    padding-bottom: 30px;
 }
 
 /* Footer
 -------------------------------------------------- */
 
-.footer {
-    text-decoration: none !important;
-}
-
 .text-muted {
     color: #6b6b6b;
 }
 
-div.footer {
-    border-bottom: 5px solid #3498db;
+footer {
+    border-top: 5px solid #3498db;
+    background: #234;
+    padding-bottom: 10px;
+}
+
+footer .about {
+    color: #b4aaaa;
+    font-size: 18px;
+}
+
+footer nav {
+    padding-top: 20px;
+}
+
+footer nav a {
+    color: #6b6b6b;
+    font-size: 15pt;
 }
 
 .tags {
@@ -259,4 +275,40 @@ div.footer {
     margin-bottom: 7px;
     color: #222;
     font: 300 32px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-card {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.content-card h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: #222;
+    font: 300 26px/1.4em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content-card h2 a {
+    color: #222;
+    text-decoration: none;
+}
+
+.content-card .actions {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-custom {
+    color: #ffffff !important;
+    background-color: #3498db;
+    border: 1px solid #6b6b6b;
+    border-radius: 0;
+}
+
+.btn-custom.focus, .btn-custom:focus, .btn-custom:hover {
+    color: #ffffff;
+    background-color: #3498db;
 }

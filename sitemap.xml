@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jamhall.github.io/contact/</loc>
+    <lastmod>2017-02-01T22:57:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamhall.github.io/about/</loc>
+    <lastmod>2017-02-01T22:54:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamhall.github.io/posts/2017/02/01/bacon</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamhall.github.io/posts/2017/01/31/hello-world</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamhall.github.io/blog/</loc>
-    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,7 +35,7 @@
   
   <url>
     <loc>https://jamhall.github.io/tags/go/</loc>
-    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,7 +47,7 @@
   
   <url>
     <loc>https://jamhall.github.io/</loc>
-    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T22:57:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,6 +59,12 @@
   <url>
     <loc>https://jamhall.github.io/tags/templates/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jamhall.github.io/tags/test/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
