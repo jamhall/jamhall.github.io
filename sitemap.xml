@@ -2,64 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.com/2017/01/31/good-to-great</loc>
-    <lastmod>2017-01-31T22:30:15+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/blog/helloworld/</loc>
+    <loc>https://jamhall.github.io/posts/2017/01/31/hello-world</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/</loc>
+    <loc>https://jamhall.github.io/blog/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/development/</loc>
+    <loc>https://jamhall.github.io/tags/development/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/go/</loc>
+    <loc>https://jamhall.github.io/tags/go/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/golang/</loc>
+    <loc>https://jamhall.github.io/tags/golang/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2017-01-31T22:30:15+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2017-01-31T22:30:15+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/templates/</loc>
+    <loc>https://jamhall.github.io/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>https://jamhall.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jamhall.github.io/tags/templates/</loc>
+    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jamhall.github.io/tags/themes/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

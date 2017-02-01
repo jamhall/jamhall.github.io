@@ -2,20 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Jamie Hall</title>
-    <link>https://example.com/blog/index.xml</link>
+    <link>https://jamhall.github.io/blog/index.xml</link>
     <description>Recent content in Blogs on Jamie Hall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamhall.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello world</title>
-      <link>https://example.com/blog/helloworld/</link>
+      <link>https://jamhall.github.io/posts/2017/01/31/hello-world</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/helloworld/</guid>
+      <guid>https://jamhall.github.io/posts/2017/01/31/hello-world</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;###### CONFIG
+ACCEPTED_HOSTS=&amp;quot;/root/.hag_accepted.conf&amp;quot;
+BE_VERBOSE=false
+
+if [ &amp;quot;$UID&amp;quot; -ne 0 ]
+then
+ echo &amp;quot;Superuser rights required&amp;quot;
+ exit 2
+fi
+
+genApacheConf(){
+ echo -e &amp;quot;# Host ${HOME_DIR}$1/$2 :&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
